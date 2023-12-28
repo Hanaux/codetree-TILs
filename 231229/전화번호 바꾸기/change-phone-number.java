@@ -6,12 +6,9 @@ public class Main {
 
         String phoneNum = scanner.nextLine();
         String[] sepNum = phoneNum.split("-");
-        String result = sepNum[0];
+        String result = sepNum[0] + "-" + sepNum[2] +"-" +sepNum[1];
 
-        for(int i=2;i>0;i--){
-            result += "-";
-            result += sepNum[i];
-        }
+        
 
         System.out.println(result);
     }
