@@ -5,11 +5,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+        int tmp = a;
         int result = 1;
 
-        while(a<=b){
-            result = result* a;
-            a = a*2;
+        while(tmp<=b){ 
+            result = result*tmp;
+            tmp += a;
         }
         System.out.println(result);
     }
