@@ -10,7 +10,7 @@ public class Main {
         int check = (a/6)*6;
 
         while(check<=b){
-            if(check>a && check%8 != 0){
+            if(check>=a && check%8 != 0){
                 sum += check;
             }
             check += 6;
