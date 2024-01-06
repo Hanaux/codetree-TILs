@@ -15,6 +15,7 @@ public class Main {
             for(int k=i;k<n;k++){
                 System.out.print((char)index + " ");
                 index++;
+                if(index>90) index = 65;
             }
             System.out.print("\n");
         }
