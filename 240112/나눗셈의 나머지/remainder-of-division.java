@@ -15,7 +15,7 @@ public class Main {
             rest[simRest]++;
             start = potion;
 
-            if(start < 1) break;
+            if(start <= 1) break;
         }
 
         int count = 0;
