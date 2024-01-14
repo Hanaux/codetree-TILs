@@ -13,11 +13,8 @@ public class Main {
                 result = result.substring(length-1)+result.substring(0,length-1);
                 break;
             case 3 :
-                String tmp = "";
-                for(int i=length-1;i>=0;i--){
-                    tmp += result.substring(i, i+1);
-                }
-                result = tmp;
+                StringBuffer sb = new StringBuffer(result);
+                result = sb.reverse().toString();
                 break;
             default : 
                 break;
