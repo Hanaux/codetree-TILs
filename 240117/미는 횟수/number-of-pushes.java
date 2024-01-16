@@ -37,7 +37,8 @@ public class Main {
             a1 = goRight(a1);
             count++;
         }
-
+        if(count==a1.length) count = -1;
+        
         System.out.println(count);
         
     }
